@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension type="plugin" version="3.7.0" group="fields" method="upgrade">
+	<name>plg_fields_addresscomplete</name>
+	<author>Elisa Foltyn</author>
+	<creationDate>05-02-2017</creationDate>
+	<copyright>COOLCAT creations, Elisa Foltyn</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>joomla@coolcat-creations.com</authorEmail>
+	<authorUrl>www.coolcat-creations.com</authorUrl>
+	<version>1.0</version>
+	<description>PLG_FIELDS_ADDRESSCOMPLETE_DESC</description>
+	<files>
+		<filename plugin="addresscomplete">addresscomplete.php</filename>
+		<folder>fields</folder>
+		<folder>language</folder>
+		<folder>params</folder>
+		<folder>tmpl</folder>
+	</files>
+	<language folder="language">
+		<language tag="en-GB">en-GB.plg_fields_addresscomplete.ini</language>
+		<language tag="en-GB">en-GB.plg_fields_addresscomplete.sys.ini</language>
+	</language>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+		<server type="extension" priority="1" name="Address complete Joomla! Custom Field Update Site">https://raw.githubusercontent.com/coolcat-creations/plg_fields_addresscomplete/master/manifest.xml</server>
+	</updateservers>
+</extension>
