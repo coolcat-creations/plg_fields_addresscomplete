@@ -2,12 +2,12 @@
 <extension type="plugin" version="3.7.0" group="fields" method="upgrade">
 	<name>plg_fields_addresscomplete</name>
 	<author>Elisa Foltyn</author>
-	<creationDate>05-02-2017</creationDate>
+	<creationDate>05-02-2018</creationDate>
 	<copyright>COOLCAT creations, Elisa Foltyn</copyright>
 	<license>GNU General Public License version 2 or later</license>
 	<authorEmail>joomla@coolcat-creations.com</authorEmail>
 	<authorUrl>www.coolcat-creations.com</authorUrl>
-	<version>1.0</version>
+	<version>1.0.1</version>
 	<description>PLG_FIELDS_ADDRESSCOMPLETE_DESC</description>
 	<files>
 		<filename plugin="addresscomplete">addresscomplete.php</filename>
